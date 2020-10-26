@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@500&display=swap" rel="stylesheet">
+
+
+    <title>Pong</title>
+
+</head>
+
+<body>
+    <div id="stage">
+        <div id="scoreFlashplayer1"></div>
+        <div id="scoreFlashplayer2"></div>
+        <!-- <img id="line" src="images/line.png"> -->
+        <img id="sprite2" src="images/sprite1.png">
+        <img id="sprite1" src="images/sprite2.png">
+        <img id="ball" src="images/ball.png">
+
+        <div id="startDiv">
+            <h2>Play Game</h2>
+            <button onclick="startGame()">Go!</button>
+        </div>
+
+        <div class="score" id="player1"></div>
+        <div class="score" id="player2"></div>
+        <div id="timer">3:00</div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
